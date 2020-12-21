@@ -1,0 +1,38 @@
+<!--XML document to store information about a syudent in an engineering college affliated to VTU. 
+The information must include USn, Name and Name of thecollege, Branch, year of  joining and email id.
+make up the sample data for 3 students. 
+Create a CSS stylesheet and use it to display the documnet-->
+
+<?xml-stylesheet type="text/css" href="labprogram5.css"?>
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <h1>SRUDENTS DESCRIPTION</h1>
+    </head>
+    <students>
+        <student>
+            <USN>USN:4SU17CS001</USN>
+            <name>NAME:SANTHOSH</name>
+            <college>COLLEGE:SDMIT</college>
+            <branch>BRANCH:Computer Science and Engineering</branch>
+            <year>YEAR:2017</year>
+            <e-mail>E-Mail:santhosh@gmail.com</e-mail>
+        </student>
+        <student>
+            <USN>USN:4SU17CS002</USN>
+            <name>NAME:ANAGHA</name>
+            <college>COLLEGE:SDMIT</college>
+            <branch>BRANCH:Computer Science and Engineering</branch>
+            <year>YEAR:2017</year>
+            <e-mail>E-Mail:anagha@gmail.com</e-mail>
+        </student>
+        <student>
+            <USN>USN:4SU17CS003></USN>
+            <name>NAME:AMEYA</name>
+            <college>COLLEGE:SDMIT</college>
+            <branch>BRANCH:Computer Science and Engineering</branch>
+            <year>YEAR:2017</year>
+            <e-mail>E-Mail:ameya@gmail.com</e-mail>
+        </student>
+    </students>
+</html>
